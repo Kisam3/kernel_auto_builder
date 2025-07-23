@@ -30,7 +30,7 @@ jobs:
         run: |
           cd kernel_oneplus_sm8150
           rm -rf KernelSU-Next
-          git clone https://github.com/KernelSU-Next/KernelSU-Next -b v1.0.6
+          git clone https://github.com/KernelSU-Next/KernelSU-Next -b next
 
 
       - name: 📥 Clone AnyKernel3
